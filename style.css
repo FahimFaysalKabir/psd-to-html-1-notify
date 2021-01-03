@@ -1,0 +1,285 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+/* header starts */
+.header{
+  background-image: url(images/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top:8px solid #2dcc70;
+  height:600px;
+  overflow: hidden;
+
+}
+
+.mid{
+  width:80%;
+  margin: auto;
+  max-width:1200px;
+
+}
+
+.left-header{
+  width:50%;
+  float: left;
+  margin-top:160px;
+}
+.left-header p{
+
+  color:#fff;
+  font-size:30px;
+}
+.social{
+  margin-top:20px;
+}
+.social ul li{
+  display:inline-block;
+
+}
+
+.social ul li a{
+
+  font-size:30px;
+  width:50px;
+  height:50px;
+  background-color:rgba(0,0,0,0.6);
+  border-radius:50%;
+  display:block;
+  position: relative;
+
+  }
+  .social ul li a:hover {
+  background-color:#2dcc70;
+
+
+  }
+.social ul li:nth-child(1) a i{
+  position: absolute;
+  left:15px;
+  top:9px;
+  color:#af9c92;
+}
+.social ul li:nth-child(2) a i{
+  position: absolute;
+  left:12px;
+  top:9px;
+  color:#af9c92;
+}
+.social ul li:nth-child(3) a i{
+  position: absolute;
+  left:11px;
+  top:9px;
+  color:#af9c92;
+}
+
+.right-header{
+  width:50%;
+  float: left;
+}
+.right-header img{
+  margin-top:93px;
+}
+/* header ends */
+/* icon section starts */
+.icon{
+  padding:100px 0px;
+  height:50vh;
+}
+.icon .float{
+
+  float: left;
+  text-align: center;
+
+}
+.icon .border{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  margin: auto;
+  position: relative;
+  background-color:#2dcc70;
+  padding:10px;
+}
+.icon .fas{
+  font-size:50px;
+  position: absolute;
+  left:19px;
+  top:19px;
+  color:#fff;
+}
+.icon h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #222222;
+  padding:20px 0px;
+}
+.icon p{
+  color: #848484;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+}
+/* icon section end here */
+/* third section starts here */
+.third{
+  background-color:#e3e3e3;
+  padding: 60px 0px;
+}
+.third:after{
+  content:'';
+  display: block;
+  clear: both;
+}
+.third .left{
+
+  float: left;
+}
+.third .right{
+
+  float: left;
+  }
+.third .right iframe{
+  border-radius:10px;
+}
+.third .left h2{
+  font-size:20px;
+  font-family: 'Lato', sans-serif;
+  color: #222222;
+}
+.third .left p{
+  font-size: 15px;
+  color: #848484;
+  font-family: 'Montserrat', sans-serif;
+  padding:30px 0px;
+  width: 400px;
+}
+.third .left .input{
+  float: left;
+}
+.third .left .button {
+  float: left;
+  width:100px;
+  height:50px;
+  background-color:#2dcc70;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.third .left .button h2{
+  color:white;
+  text-align: center;
+  margin-top:7px;
+}
+.third .input input[type="text"]{
+  width:250px;
+  height:48px;
+  padding: 0px 30px;
+  border:1px solid #cccccc;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+.third .input input[type="submit"]{
+  width:100px;
+  height:52px;
+  background-color:#2dcc70;
+  color:#fff;
+  border:1px solid #cccccc;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  margin-left:-5px;
+  font-weight:bold;
+}
+/* third section ends here */
+/* matha section starts here */
+.matha ul li{
+  display: inline-block;
+}
+.matha h6{
+  font-size: 15px;
+  color: #a6a6a6;
+  font-family: 'Montserrat', sans-serif;
+  font-style:italic;
+  text-align:center;
+  padding: 30px 0px;
+  word-spacing:3px;
+  line-height:20px;
+
+}
+.matha h6 span{
+  display: block;
+}
+.matha h2{
+  font-family: 'Lato', sans-serif;
+  font-size:18px;
+  color: #222222;
+  text-align: center;
+  padding-bottom:20px;
+
+}
+
+.matha .matha1 ul li img{
+ width:40px;
+ height:40px;
+ border:1px solid transparent;
+
+}
+.matha .matha1 ul{
+text-align: center;
+}
+.matha .matha1 ul li a img:hover{
+  border:1px solid red;
+}
+
+.matha p{
+  font-family: 'Lato', sans-serif;
+  font-size:15px;
+  color: #222222;
+  text-align: center;
+
+}
+.matha .menu1  {
+  text-align: center;
+  margin-top:20px;
+  padding-bottom:30px;
+}
+.matha .menu1 ul li a{
+  width:35px;
+  height:35px;
+  display: block;
+  position: relative;
+  border-radius:50%;
+  background-color:#d4d4d4;
+
+}
+.matha .menu1 ul li a:hover{
+  background-color:#2dcc70;
+}
+.matha ul li i{
+  color:#fefefe;
+  font-size:20px;
+  position: absolute;
+  top:8px;
+  left:8px;
+}
+.matha .say{
+  padding: 30px 0px;
+  font-size:25px;
+  margin-top:30px;
+}
+.matha .hy{
+  color: #a6a6a6;
+}
+/* end matha section here */
+/* starts footer here */
+.footer ul li{
+  display: inline-block;
+}
+.footer a{
+  color:#9b9b9b;
+  padding: 0px 10px;
+}
+.footer{
+  text-align: center;
+  background-color:#e3e3e3;
+  padding: 50px 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
